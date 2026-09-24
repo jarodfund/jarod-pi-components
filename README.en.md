@@ -8,7 +8,11 @@ Versioned agent-resource catalogs, provenance and publication notes for **学术
 
 Choose an agent in Jarod-Pi. The client downloads missing dependencies on demand and reuses shared resources. There is no need to clone each upstream project or download the entire collection.
 
-This is not the desktop application download. Windows, Linux and macOS client packages belong in the [product repository](https://github.com/jarodfund/jarod-pi). The first GitHub resource release is still being prepared; this page does not mean it is already available.
+This is not the desktop application download. See the [product repository](https://github.com/jarodfund/jarod-pi) for client status. **Resource Release 2 is live; client 0.2.5 is recommended.** Client ZIPs are not published in the product repository yet. Available resources do not imply available client downloads or online application updates.
+
+The release contains four signed platform catalogs, 30 ZIPs and a public key: 35 assets with verified remote sizes and SHA-256 digests. Unauthenticated downloads passed catalog signature checks and Range/206 checks for every ZIP. The actual Windows 0.2.5 package installed and selected academic and openresearch using a clean profile, including verification of the research-cli dependency. Recovery after a 404 and resumable download were also verified. No paid model requests were made; this was not a task-by-task test of every agent.
+
+Version 0.2.4 is catalog-compatible but does not use the system proxy for resource downloads; 0.2.5 fixes that separate issue. Version 0.2.3 still points to the retired server and is not recommended for distribution.
 
 ## Repository roles
 
